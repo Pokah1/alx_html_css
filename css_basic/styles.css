@@ -1,0 +1,107 @@
+body, main {
+    display: flex;
+}
+
+body{
+    flex-direction: column;
+}
+
+main{
+    flex-direction: row;
+    flex: auto;
+}
+
+article{
+    overflow-y: auto;
+    flex:2;
+}
+
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+
+header {
+  background-color: #fefefe;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 15px;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+header a:hover {
+  color: #34967C;
+}
+
+article {
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+  color: #222;
+  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+}
+article h1 {
+  color: #444;
+}
+article img {
+  display: block;
+  margin-top: 10px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #f7f7f7;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 20px;
+}
+footer a {
+  color: #007BFF;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
